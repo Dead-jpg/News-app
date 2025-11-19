@@ -1,16 +1,38 @@
-# React + Vite
+# 📰 NewsMag – React News App (Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NewsMag is a modern and responsive **news application built using React + Vite**.  
+It fetches the latest headlines and displays them in a clean, card-based UI.  
+Users can explore trending categories such as **Technology, Business, Health, Sports, and Entertainment.**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Real-time news updates
+- Category wise filtering
+- Responsive modern UI using Bootstrap
+- Fast performance with **Vite + React**
+- Environment variable support for API key
+- Clean, reusable components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Description |
+|------------|-------------|
+| **React (Vite)** | Frontend UI framework |
+| **Bootstrap 5** | Styling & layout |
+| **News API / GNews API** | Fetch live news |
+| **Netlify** | Hosting & Deployment |
+
+---
+
+## 📦 Installation & Setup
+
+Follow these steps to run the project on your device:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Dead-jpg/news-app_1.git
+cd news-app_1
