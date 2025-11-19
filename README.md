@@ -23,8 +23,7 @@ Users can explore trending categories such as **Technology, Business, Health, Sp
 |------------|-------------|
 | **React (Vite)** | Frontend UI framework |
 | **Bootstrap 5** | Styling & layout |
-| **News API / GNews API** | Fetch live news |
-| **Netlify** | Hosting & Deployment |
+| **News API** | Fetch live news |
 
 ---
 
@@ -36,3 +35,38 @@ Follow these steps to run the project on your device:
 ```bash
 git clone https://github.com/Dead-jpg/news-app_1.git
 cd news-app_1
+```
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Create .env File
+Create a file in the project root named .env and add this:
+```bash
+VITE_API_KEY=your_api_key_here
+```
+⚠️ Make sure the key starts with VITE_, otherwise it will not work in Vite!
+
+### 4️⃣ Run the App Locally
+```bash
+npm run dev
+```
+Now open the shown URL (example: http://localhost:5173/).
+
+💡 Future Enhancements
+
+🌓 Dark & Light Mode
+
+🔍 Search news by keywords
+
+📌 Save or Bookmark articles
+
+🔄 Infinite scroll
+
+🔊 Text-to-speech news reading
+
+---
+
+### 🎉 You're Done!
