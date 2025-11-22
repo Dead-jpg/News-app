@@ -1,6 +1,6 @@
 # 📰 NewsNow – React News App (Vite)
 
-NewsMag is a modern and responsive **news application built using React + Vite**.  
+NewsNow is a modern and responsive **news application built using React + Vite**.  
 It fetches the latest headlines and displays them in a clean, card-based UI.  
 Users can explore trending categories such as **Technology, Business, Health, Sports, and Entertainment.**
 
